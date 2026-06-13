@@ -1,0 +1,36 @@
+{
+    "model_type": "Random Forest Classifier",
+    "best_hyperparameters": {
+        "max_depth": 4,
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "n_estimators": 300
+    },
+    "features": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age",
+        "Age_Group",
+        "BMI_Category",
+        "Glucose_BMI"
+    ],
+    "imputation_medians": {
+        "Glucose": 117.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 125.0,
+        "BMI": 32.3
+    },
+    "metrics": {
+        "accuracy": 0.7402597402597403,
+        "precision": 0.6029411764705882,
+        "recall": 0.7592592592592593,
+        "f1_score": 0.6721311475409836,
+        "auc_roc": 0.8183333333333334
+    }
+}
